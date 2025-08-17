@@ -1,13 +1,15 @@
 # airline-ticket-price-analysis
 
+### Author: Lucio Nieto
+### Date: 8/16/2025
+### Contact: lucionieto2.0@gmail.com
+
+
 This project explores an airlines flights dataset and builds a machine learning model to predict ticket prices. The analysis covers how different factors such as airline, source/destination city, travel class, departure/arrival times, and days  before departure impact flight pricing. 
 
 ## Project Objective
 This project explores  factors such as class, routes, departure/arrival times and how they influence ticket prices. In addition to exploratory data analysis, I built a machine learning model techniques to predict ticket prices and quantify influence of different variables. The goal of the project was to demonstrate analytical and modeling skills that are relevent to real world datasets and pricing problems. 
 
-### Author: Lucio Nieto
-### Date: 8/16/2025
-### Contact: lucionieto2.0@gmail.com
 
 ## Dataset Source  
 [Airlines Flights Dataset – Kaggle](https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data)
