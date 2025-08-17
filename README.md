@@ -1,9 +1,9 @@
 # airline-ticket-price-analysis
 
-This project explores an airlines flights dataset and builds a machine learning model to predict ticket prices. The analysis covers how different factors — such as airline, source/destination city, travel class, departure/arrival times, and days left before departure — impact flight pricing.  
+This project explores an airlines flights dataset and builds a machine learning model to predict ticket prices. The analysis covers how different factors such as airline, source/destination city, travel class, departure/arrival times, and days  before departure impact flight pricing.  
 
 ## Dataset Source  
-[Airlines Flights Dataset – Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data))  
+[Airlines Flights Dataset – Kaggle](https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data)
 
 ## Dataset Description  
 
@@ -25,10 +25,13 @@ The dataset contains information on commercial flight bookings between major Ind
 | **Days Left**     | Days between booking date and flight date.                                  | Numerical   |
 | **Price**         | Ticket price (target variable).                                             | Numerical   |
 
+## Modeling
+Using the **Scikit-Learn** library I trained a **Random Forest Regressor** to predict airline ticket prices.
+- Implemented data preprocessing pipelines (`SimplImputer`, `OneHotEncoder`, `ColumnTransformer`)
+- Evaluated model acuraccy ysing **Mean Absolute Error (MAE)** and **R² score** 
 
 
-
-#Results
+## Results
 ### Average Airline Price
 ![Average Airline Price](figs/Average_airline_price.png)
 
