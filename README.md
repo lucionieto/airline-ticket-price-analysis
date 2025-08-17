@@ -1,4 +1,12 @@
 # airline-ticket-price-analysis
+## Dataset (India domestic routes)
+- Rows: ~N (fill in)
+- Features: 11 (6 categorical, 2 numeric + target)
+- Scope: Flights between 6 Indian cities across 6 airlines
+- Target: `price` (INR)
+- Key features: `class`, `airline`, `source_city`, `destination_city`, `departure_time`, `arrival_time`, `stops`, `duration`, `days_left`
+- Caveats: Scraped snapshot; binned time labels; no baggage/refundability fees
+
 
 
 #Results
