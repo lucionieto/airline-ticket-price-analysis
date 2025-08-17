@@ -1,11 +1,24 @@
 # airline-ticket-price-analysis
-## Dataset (India domestic routes)
-- Rows: ~N (fill in)
-- Features: 11 (6 categorical, 2 numeric + target)
-- Scope: Flights between 6 Indian cities across 6 airlines
-- Target: `price` (INR)
-- Key features: `class`, `airline`, `source_city`, `destination_city`, `departure_time`, `arrival_time`, `stops`, `duration`, `days_left`
-- Caveats: Scraped snapshot; binned time labels; no baggage/refundability fees
+## Dataset Description  
+
+The dataset contains information on commercial flight bookings between major Indian cities. Each row represents one flight option, with details about the airline, route, class, timing, and price.  
+
+### Features  
+
+| Column            | Description                                                                 | Type        |
+|-------------------|-----------------------------------------------------------------------------|-------------|
+| **Airline**       | Carrier operating the flight (6 unique airlines).                           | Categorical |
+| **Flight**        | Alphanumeric flight code identifying the specific flight.                   | Categorical |
+| **Source City**   | City of departure (6 unique cities).                                        | Categorical |
+| **Destination City** | City of arrival (6 unique cities).                                       | Categorical |
+| **Departure Time**| Time of departure, grouped into 6 categories (Early Morning, Morning, etc.).| Categorical |
+| **Arrival Time**  | Time of arrival, grouped into 6 categories.                                 | Categorical |
+| **Stops**         | Number of stops (Non-stop, 1 Stop, 2+ Stops).                               | Categorical |
+| **Class**         | Ticket class (Economy or Business).                                         | Categorical |
+| **Duration**      | Total travel time in hours.                                                 | Numerical   |
+| **Days Left**     | Days between booking date and flight date.                                  | Numerical   |
+| **Price**         | Ticket price (target variable).                                             | Numerical   |
+
 
 
 
