@@ -2,9 +2,9 @@
 
 This project explores an airlines flights dataset and builds a machine learning model to predict ticket prices. The analysis covers how different factors such as airline, source/destination city, travel class, departure/arrival times, and days  before departure impact flight pricing.  
 
-# Author: Lucio Nieto
-# 8/16/2025
-# Contact: lucionieto2.0@gmail.com
+### Author: Lucio Nieto
+### 8/16/2025
+### Contact: lucionieto2.0@gmail.com
 
 ## Dataset Source  
 [Airlines Flights Dataset – Kaggle](https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data)
