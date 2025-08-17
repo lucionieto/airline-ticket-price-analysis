@@ -1,6 +1,7 @@
 # airline-ticket-price-analysis
 
-##This project explores an airlines flights dataset and builds a machine learning model to predict ticket prices. The analysis covers how different factors — such as airline, source/destination city, travel class, departure/arrival times, and days left before departure — impact flight pricing.  
+This project explores an airlines flights dataset and builds a machine learning model to predict ticket prices. The analysis covers how different factors — such as airline, source/destination city, travel class, departure/arrival times, and days left before departure — impact flight pricing.  
+
 
 
 ## Dataset Description  
