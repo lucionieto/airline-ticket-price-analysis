@@ -2,6 +2,10 @@
 
 This project explores an airlines flights dataset and builds a machine learning model to predict ticket prices. The analysis covers how different factors such as airline, source/destination city, travel class, departure/arrival times, and days  before departure impact flight pricing.  
 
+# Author: Lucio Nieto
+# 8/16/2025
+# Contact: lucionieto2.0@gmail.com
+
 ## Dataset Source  
 [Airlines Flights Dataset – Kaggle](https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data)
 
@@ -27,24 +31,26 @@ The dataset contains information on commercial flight bookings between major Ind
 
 ## Modeling
 Using the **Scikit-Learn** library I trained a **Random Forest Regressor** to predict airline ticket prices.
-- Implemented data preprocessing pipelines (`SimplImputer`, `OneHotEncoder`, `ColumnTransformer`)
-- Evaluated model acuraccy ysing **Mean Absolute Error (MAE)** and **R² score** 
+- Implemented data preprocessing pipelines (`SimpleImputer`, `OneHotEncoder`, `ColumnTransformer`)
+- Split dataset using 80% for training and the remaining 20% for testing/evaluation
+- Tuned hyperparameters to improve model performance
+- Evaluated model acuraccy using **Mean Absolute Error (MAE)** and **R² score** 
 
 
 ## Results
-### Average Airline Price
+### Average Ticket Price per Airline
 ![Average Airline Price](figs/Average_airline_price.png)
 
-#### Average Price by Airline and Class
+#### Average Ticket Price by Airline and Class
 ![Average Price](figs/Average_ticket_price_class.png)
 
-### Average price at Departure and Arrival Times
+###  Ticket Price at Departure and Arrival Times
 ![Arrival & Departure price](figs/Dep_vs_Arr_price.png)
 
-### Average ticket price in days before departure
+### Ticket Price in days before departure
 ![Price Before Departure](figs/Average_price_before_departure.png)
 
-### Model Feature Permunation Importance
+### Feature Importance (Permutation)
 ![Feature Permutation](figs/Feature_importance.png)
 
 
