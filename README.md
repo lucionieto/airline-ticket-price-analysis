@@ -44,11 +44,11 @@ The dataset contains information on commercial flight bookings between major Ind
 
 ### Technical Details
 - **Languages:** Python
-- **Libraries:** NumPy, Pandas, Matplorlib, Seaborn, Scikit-Learn
+- **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn
 - **Environment:** Jupyter Notebook
 
 ### Techniques Used
-- Exlporatory Data Analysis with Pandas, Matplotlib and Seaborn
+- Exploratory Data Analysis with Pandas, Matplotlib and Seaborn
 - Data Preprocessing (encoding categorical variables)
 - Model training and Evaluation
 
@@ -57,7 +57,7 @@ Using the **Scikit-Learn** library I trained a **Random Forest Regressor** to pr
 - Implemented data preprocessing pipelines (`SimpleImputer`, `OneHotEncoder`, `ColumnTransformer`)
 - Split dataset using 80% for training and the remaining 20% for testing/evaluation
 - Tuned hyperparameters to improve model performance
-- Evaluated model acuraccy using **Mean Absolute Error **(MAE)** and **R² score**
+- Evaluated model accuracy using **Mean Absolute Error **(MAE)** and **R² score**
 
 
 ## Results
@@ -75,7 +75,7 @@ Using the **Scikit-Learn** library I trained a **Random Forest Regressor** to pr
 
 ### Ticket Price in days before departure
 ![Price Before Departure](figs/Average_price_before_departure.png)
-### Insight: Ticket prices are the highest in the days leading up to departure. Prices are consistantly lower on average in the 20-30 days before departure. 
+### Insight: Ticket prices are the highest in the days leading up to departure. Prices are consistently lower on average in the 20-30 days before departure. 
 
 ### Feature Importance (Permutation)
 ![Feature Permutation](figs/Feature_importance.png)
@@ -85,9 +85,18 @@ Using the **Scikit-Learn** library I trained a **Random Forest Regressor** to pr
 - Business class prices are ~7x higher than economy tickets.
 - Booking a flight with 10+ days prior to departure significantly decreases average ticket price.
 - Late Night Arrivals and departures yield the lowest average ticket price compared to other times.
-- Feature Importance of class, duration and airline are the strongest predictors for price. 
+- Feature Importance of class, duration and airline are the strongest predictors for price.
 
 ## Model Performance
 - Mean Absolute Error: 1,064.81
 - R²: 0.985
 - *RandomForestRegression model explains ~96% of variance in ticket prices.*
+
+## Conclusion
+This project highlights how multiple factors affect flight ticket prices, with **class** and **timing of booking** being the most important. The Random Forest model achieved strong predictive accuracy (R² = 0.985), demonstrating the potential of machine learning for real-world pricing problems.
+
+## How to Run
+1. Clone this repository  
+2. Install dependencies: `pip install -r requirements.txt`  
+3. Open the Jupyter notebook in `notebooks/`  
+4. Run the cells to reproduce the analysis and visualizations  
