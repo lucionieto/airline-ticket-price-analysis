@@ -93,7 +93,7 @@ Using the **Scikit-Learn** library I trained a **Random Forest Regressor** to pr
 - *RandomForestRegression model explains ~96% of variance in ticket prices.*
 
 ## Conclusion
-This project highlights how multiple factors affect flight ticket prices, with **class** and **timing of booking** being the most important. The Random Forest model achieved strong predictive accuracy (R² = 0.985), demonstrating the potential of machine learning for real-world pricing problems.
+This project highlights how multiple factors affect flight ticket prices, with **class** and **timing of booking** being the most important. The Random Forest model achieved significant predictive percision (R² = 0.985), demonstrating the potential of machine learning models for real-world business problems.
 
 ## How to Run
 1. Clone this repository  
