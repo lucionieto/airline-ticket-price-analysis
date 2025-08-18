@@ -9,6 +9,11 @@ This project explores an airlines flights dataset and builds a machine learning 
 
 ## Project Objective
 This project explores  factors such as class, routes, departure/arrival times and how they influence ticket prices. In addition to exploratory data analysis, I built a machine learning model techniques to predict ticket prices and quantify influence of different variables. The goal of the project was to demonstrate analytical and modeling skills that are relevent to real world datasets and pricing problems. 
+## Project Structure
+- `notebooks/`  Jupyter notebooks with data cleaning, EDA, and modeling  
+- `figs/`  Plots and visualizations  
+- `data/` Raw dataset (not included due to size, link in Dataset section)  
+- `README.md`  Project documentation  
 
 
 ## Dataset   
@@ -58,18 +63,23 @@ Using the **Scikit-Learn** library I trained a **Random Forest Regressor** to pr
 ## Results
 ### Average Ticket Price per Airline
 ![Average Airline Price](figs/Average_airline_price.png)
+### Insight: Vistara and Air India on average have the highest ticket prices, whereas AirAsia and SpiceJet tend to be the cheapest. 
 
 #### Average Ticket Price by Airline and Class
 ![Average Price](figs/Average_ticket_price_class.png)
+### Insight: While Air India and Vistara are the only airlines with Business class the prices are significantly more expensive than economy tickets. 
 
 ###  Ticket Price at Departure and Arrival Times
 ![Arrival & Departure price](figs/Dep_vs_Arr_price.png)
+### Insight: Flights departing or arriving in the morning and evening tend to be the most expensive. Late-night flights are consistently the cheapest.
 
 ### Ticket Price in days before departure
 ![Price Before Departure](figs/Average_price_before_departure.png)
+### Insight: Ticket prices are the highest in the days leading up to departure. Prices are consistantly lower on average in the 20-30 days before departure. 
 
 ### Feature Importance (Permutation)
 ![Feature Permutation](figs/Feature_importance.png)
+### Ticket class (Economy vs. Business) has the strongest influence on price prediction, followed by flight duration and airline.
 
 ## Key Insights
 - Business class prices are ~7x higher than economy tickets.
